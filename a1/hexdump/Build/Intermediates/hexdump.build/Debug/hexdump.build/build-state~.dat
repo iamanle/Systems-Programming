@@ -1,0 +1,78 @@
+Thexdump
+v5
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/hexdump.build/Debug/hexdump.build/Objects-normal/x86_64/main.o "/Users/anle/Desktop/CS 530/Assignment 1/hexdump/hexdump/main.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Products/Debug/hexdump" normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c00000000520D8FC00000000000004523
+t1376620480
+s17699
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdlib.h
+c00000000520D8FC00000000000003089
+t1376620480
+s12425
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/string.h
+c00000000520D8FC00000000000001A3A
+t1376620480
+s6714
+
+N/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Intermediates/hexdump.build/Debug/hexdump.build/Objects-normal/x86_64/hexdump.LinkFileList
+c0000000052362D780000000000000083
+t1379282296
+s131
+
+N/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Intermediates/hexdump.build/Debug/hexdump.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Products/Debug/hexdump
+t2
+s0
+
+N/Users/anle/Desktop/CS 530/Assignment 1/hexdump/hexdump/main.c
+c000000005234D4C700000000000015CA
+t1379194055
+s5578
+i<stdlib.h>
+i<stdio.h>
+i<string.h>
+
+CBuild AST from "/Users/anle/Desktop/CS 530/Assignment 1/hexdump/hexdump/main.c"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6e8a2bf864e6b741^20632ef864e6b741^---0#1#0#--18"Check dependencies36"891F9EB9-0E57-4DFA-AEB6-ABBBC8E2EF54-
+
+CCompileC Build/Intermediates/hexdump.build/Debug/hexdump.build/Objects-normal/x86_64/main.o "/Users/anle/Desktop/CS 530/Assignment 1/hexdump/hexdump/main.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s400975096.183248
+e400975096.219193
+r1
+xCompileC
+xBuild/Intermediates/hexdump.build/Debug/hexdump.build/Objects-normal/x86_64/main.o
+x/Users/anle/Desktop/CS 530/Assignment 1/hexdump/hexdump/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/anle/Desktop/CS 530/Assignment 1/hexdump/hexdump/main.c4d122ff864e6b741^fc1b38f864e6b741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/anle/Desktop/CS%20530/Assignment%201/hexdump/hexdump/main.c0000000000000000^2851"CompileC Build/Intermediates/hexdump.build/Debug/hexdump.build/Objects-normal/x86_64/main.o hexdump/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/anle/Desktop/CS 530/Assignment 1/hexdump"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote "/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Intermediates/hexdump.build/Debug/hexdump.build/hexdump-generated-files.hmap" "-I/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Intermediates/hexdump.build/Debug/hexdump.build/hexdump-own-target-headers.hmap" "-I/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Intermediates/hexdump.build/Debug/hexdump.build/hexdump-all-target-headers.hmap" -iquote "/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Intermediates/hexdump.build/Debug/hexdump.build/hexdump-project-headers.hmap" "-I/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Intermediates/hexdump.build/Debug/hexdump.build/DerivedSources/x86_64" "-I/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Intermediates/hexdump.build/Debug/hexdump.build/DerivedSources" "-F/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Intermediates/hexdump.build/Debug/hexdump.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Intermediates/hexdump.build/Debug/hexdump.build/Objects-normal/x86_64/main.dia" -c "/Users/anle/Desktop/CS 530/Assignment 1/hexdump/hexdump/main.c" -o "/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Intermediates/hexdump.build/Debug/hexdump.build/Objects-normal/x86_64/main.o"36"31A2718C-160A-4ECF-89A0-1CCB0C643577-
+
+CLd "/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Products/Debug/hexdump" normal x86_64
+s400975096.226047
+e400975096.252676
+r1
+xLd
+x/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Products/Debug/hexdump
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Link /Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Products/Debug/hexdump63ef39f864e6b741^6cb040f864e6b741^---0#0#0#--774"Ld Build/Products/Debug/hexdump normal x86_64    cd "/Users/anle/Desktop/CS 530/Assignment 1/hexdump"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Products/Debug" "-F/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Products/Debug" -filelist "/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Intermediates/hexdump.build/Debug/hexdump.build/Objects-normal/x86_64/hexdump.LinkFileList" -mmacosx-version-min=10.8 -o "/Users/anle/Desktop/CS 530/Assignment 1/hexdump/Build/Products/Debug/hexdump"36"DDCA877E-7797-4367-8918-C7A1B630FD9C-
+

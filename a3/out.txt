@@ -1,0 +1,30 @@
+Line                          Input                                   Validation 
+  0: first = one1 + two2 - three3 / four4 ;                        Valid Assignment.                         
+  1: third = ONE + twenty - three3 ;                               Valid Assignment.                         
+  2: third = old * thirty2 / b567 ;                                Valid Assignment.                         
+  3: first = one1 + two2 - three3 ;                                Valid Assignment.                         
+  4: 
+  5: one1 * i8766e98e + three                                      Valid Expression.                         
+  6: h1 + h2 - h3 / h4 % h5 * h6                                   Valid Expression.                         
+  7: wqwe213 - s1123 % SDAS                                        Valid Expression.                         
+  8: 
+  9: second = one1 * (two2 * three3) ;                             Invalid Assignment.  The token "three3)" is not a valid ID. 
+ 10: first = = one1 + two2 - three3 / four4 ;                      Invalid Assignment.  The token "=" is not a valid ID. 
+ 11: first = one1 + two2 - three3 / four4                          Invalid Assignment.  The last token "four4" is not a semi colon. 
+ 12: first = 1 + - two2 - three3 / four4 ;                         Invalid Assignment.  The token "1" is not a valid ID. 
+ 13: first = one1 + two2 ? three3 / four4 ;                        Invalid Assignment.  The token "?" is not a valid Operator. 
+ 14: second = 4 + ( one1 * two2 ) * ( three3 + four4 ;             Invalid Assignment.  The token "4" is not a valid ID. 
+ 15: third = one1 + 24 - three3 ;                                  Invalid Assignment.  The token "24" is not a valid ID. 
+ 16: sixty6 / min = fourth ;                                       Invalid Assignment.  The second token "/" is not an equal sign. 
+ 17: 
+ 18: one1 +- delta                                                 Invalid Expression.  The token "+-" is not a valid Operator. 
+ 19: one1 * i8766e98e + bignum + two2 / sth5 sth5                  Invalid Expression.  The token "sth5" is not a valid Operator. 
+ 20: += one1 + two2 +three3                                        Invalid Expression.  The token "+=" is not a valid ID. 
+ 21: two2three +- three2 / kind3                                   Invalid Expression.  The token "+-" is not a valid Operator. 
+ 22: h1 / h2 % h3 h4                                               Invalid Expression.  The token "h4" is not a valid Operator. 
+ 23: / % h1 + h2 + h3                                              Invalid Expression.  The token "/" is not a valid ID. 
+ 24: h2 h2 + h3 - h4                                               Invalid Expression.  The token "h2" is not a valid Operator. 
+ 25: 
+ 26: 
+
+ => File Validation: Fail
